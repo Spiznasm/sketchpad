@@ -1,0 +1,23 @@
+.container {
+  height:800px;
+  width:800px;
+  background-color:white;
+}
+
+.row {
+  width:800px;
+  height:50px;
+
+}
+
+.cell {
+  margin:0px;
+  padding:0px;
+  border-spacing: 0;
+  display: inline-block;
+
+}
+
+.touched {
+  background-color: blue;
+}
