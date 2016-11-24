@@ -1,18 +1,14 @@
 .container {
-  height:800px;
-  width:800px;
+  height:600px;
+  width:600px;
   background-color:white;
+  font-size: 0;
 }
 
-.row {
-  width:800px;
-  height:50px;
 
-}
 
 .cell {
-  margin:0px;
-  padding:0px;
+  /*vertical-align: top;*/
   border-spacing: 0;
   display: inline-block;
 
@@ -20,4 +16,5 @@
 
 .touched {
   background-color: blue;
+  opacity:0.1;
 }
